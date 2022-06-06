@@ -1,0 +1,83 @@
+﻿.cookieBar{
+    position:fixed;
+    width:100%;
+    margin:0;
+    left:0;
+    bottom:0;
+    z-index:9999999;
+    text-align:left;
+    padding:20px 0 30px;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:16px;
+    box-sizing:border-box;
+    color:#fff !important;
+    background-color:#555 !important;
+}
+.cookieBar .cookieBarButtons{
+    position:absolute;
+    top:20px;
+    right:20px;
+    text-align:right;
+}
+.cookieBar .cookieBarButtons > a{
+    display:inline-block;
+    vertical-align:top;
+    height:30px;
+    line-height:30px;
+    font-size:14px;
+    color:#fff !important;
+    padding:0 10px;
+    text-decoration:none;
+    font-weight:700;
+    margin:0;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+.cookieBar .cookieBarButtons>a.cookieBarOk {
+    background:#0885c4 !important;
+}
+.cookieBar>h3{
+    display:block;
+    line-height:1;
+    font-weight:700;
+    margin:0 0 5px 0;
+    padding:0;
+    font-family:Arial,Helvetica,sans-serif;
+    color:#fff !important;
+    font-size:18px;
+    text-transform:none;
+    padding:0 130px 0 20px;
+}
+.cookieBar > p{
+    display:block;
+    font-family:Arial,Helvetica,sans-serif;
+    color:#fff !important;
+    font-size:12px;
+    line-height:1.2;
+    font-weight:400;
+    margin:0;
+    padding:0 130px 0 20px;
+}
+.cookieBar p a, .cookieBar p a:visited{
+    color: white !important;
+}
+@media (max-width:700px){
+    .cookieBar {
+        padding:40px 0;
+        font-size: 25px;
+    }
+    .cookieBar>h3{
+        padding:0 20px 0 20px;
+    }
+    .cookieBar>p{
+        padding:0 20px 0 20px;
+    }
+    .cookieBar .cookieBarButtons{
+        position:relative;
+        top:auto;
+        right:auto;
+        text-align:left;
+        margin:20px 20px 0;
+    }
+}
